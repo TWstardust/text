@@ -69,8 +69,27 @@ GIT基本使用步驟
 GIT帳號經由不同電腦登入
 
 
-若master是用ssh加密需在個別的電腦做ssh加密
-再將公鑰加入至GIT帳號就能使用別台電腦登入
+首先開啟Git Bash 輸入指令做登入  
+`git config --global user.name "MarsW"`  
+`git config --global user.email "ymjh11436@gmail.com"`
+
+接著輸入ssh生成指令  
+`ssh-keygen -t rsa`  
+>出現 Enter file in which to save the key 直接按三次enter跳過
+會生成一個.ssh的資料夾 內有兩個檔案
+
+id_rsa 跟 id_rsa(Microsoft Publisher) 即 私鑰跟公鑰
+
+將id_rsa(Microsoft Publisher)用記事本開啟 內容全選 複製
+
+到github的setttings
+選ssh 然後點 new ssh key
+將複製的內容貼到key那一欄
+title不用打
+點add ssh key 就可以了
+
+接著clone專案到本機
+git clone "git@github.com.......git" (雙引號為個人github上專案的clone碼 實際輸入指令時不需要加雙引號)
 
 
 設置完成後將檔案克隆下來
