@@ -82,18 +82,32 @@ id_rsa 跟 id_rsa(Microsoft Publisher) 即 私鑰跟公鑰
 
 將id_rsa(Microsoft Publisher)用記事本開啟 內容全選 複製
 
-到github的setttings
-選ssh 然後點 new ssh key
+到github的setttings  
+
+選ssh 然後點 new ssh key  
+
 將複製的內容貼到key那一欄
-title不用打
+>title不用打  
 點add ssh key 就可以了
 
-接著clone專案到本機
-git clone "git@github.com.......git" (雙引號為個人github上專案的clone碼 實際輸入指令時不需要加雙引號)
+接著clone專案到本機  
+`git clone "git@github.com.......git"`  
+>(雙引號為個人github上專案的clone碼 實際輸入指令時不需要加雙引號)
 
 
 設置完成後將檔案克隆下來
 
 
 接著對檔案夾右鍵選  
-`Git Bash`開啟
+`Git Bash Here`開啟
+
+
+不斷反覆練習 直到熟悉GITHUB  
+不斷反思自己 是否適合做工程師
+
+雖然學習的過程難免會遇到挫折  
+不停地碰壁 不停地突破  
+路有很多條 不是只有一條  
+別被自己的困境侷限了自己  
+放開眼界 放開父母的拘束  
+keep bater
